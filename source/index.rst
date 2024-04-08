@@ -14,6 +14,7 @@ report](https://www.cncf.io/cncf-helm-project-journey/).
 .. toctree::
 
    intro/install
+   intro/quickstart
 
 
 
