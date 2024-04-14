@@ -1,17 +1,57 @@
-.. Helm Русская документация documentation master file, created by
-   sphinx-quickstart on Sat Mar 23 00:43:00 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Helm Русская документация
 
 
 Добро пожаловать
-================
+
 
 Добро пожаловать в документацию по [Helm](https://helm.sh/). Helm – это менеджер пакетов Kubernetes. Подробную справочную информацию можно прочитать в отчете
 [CNCF Helm Project Journey
 report](https://www.cncf.io/cncf-helm-project-journey/).
 
-.. toctree::
+Как организована документация
 
-   Home <self>
-   intro/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Введение:
+
+   intro/install
+   intro/quickstart
+
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Инструкции по применению:
+
+  howto/chart_releaser_action
+
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Тематические руководства
+
+  topics/advanced
+
+
+
+У Helm много документации. Обзор поможет узнать, где искать необходимую информацию
+
+- [Обучающие материалы](https://helm.sh/docs/intro) проведут вас за руку через ряд шагов, которые помогут создать
+  первый Helm chart Начните с этого, если вы новичок в Helm.
+- [Тематические руководства](https://helm.sh/docs/topics) обсуждают ключевые темы и концепции на достаточно высоком уровне,
+  предоставляют полезную справочную информацию и разъяснения.
+- [Путеводители сообщества](https://helm.sh/docs/community) обсуждают темы, сосредоточенные вокруг Helm сообщества.
+  Начните отсюда, если вы хотите узнать больше о процессе разработки самого Helm и о том, как вы можете внести свой вклад.
+- [Инструкции по применению](https://helm.sh/docs/howto) это готовые советы по использованию.
+  Они проведут вас через шаги, связанные с решением ключевых проблем и вариантов их разрешения.
+  Инструкции по применению более продвинуты, чем [обучающие материалы](https://helm.sh/docs/intro), и предлагают некоторые расширенные знания о том, как работает Helm.
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

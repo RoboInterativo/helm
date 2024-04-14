@@ -14,9 +14,15 @@ author = 'RoboInterativo'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = []
+# extensions.append("sphinx_wagtail_theme")
+# html_theme = 'sphinx_wagtail_theme'
 
 templates_path = ['_templates']
-html_theme = "classic"
+# html_theme = "classic"
+# html_theme = 'bizstyle'
+html_theme ='press'
+# 'sphinx_rtd_theme'
+
 # html_theme_options = {
 #     "sidebarbgcolor": "black"
 #
